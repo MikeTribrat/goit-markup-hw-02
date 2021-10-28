@@ -24,7 +24,7 @@ body {
 
   color: #2196f3;
 }
-.studio {
+.page-header-menu-nav-studio {
   /* Студия */
 
   position: absolute;
@@ -43,8 +43,8 @@ body {
 
   color: #212121;
 }
-.studio:hover,
-.studio:focus {
+.:hover,
+.:focus {
   /* Студия */
 
   position: absolute;

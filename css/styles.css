@@ -24,7 +24,7 @@ body {
 
   color: #2196f3;
 }
-.page-header-menu-nav-studio {
+.menu-nav-studio {
   /* Студия */
 
   position: absolute;
@@ -43,8 +43,8 @@ body {
 
   color: #212121;
 }
-.:hover,
-.:focus {
+.menu-nav-studio:hover,
+.menu-nav-studio:focus {
   /* Студия */
 
   position: absolute;
@@ -63,7 +63,7 @@ body {
 
   color: #2196f3;
 }
-.portfolio {
+.menu-nav-portfolio {
   /* Портфолио */
 
   position: absolute;
@@ -82,8 +82,8 @@ body {
 
   color: #212121;
 }
-.portfolio:hover,
-.portfolio:focus {
+.menu-nav-portfolio:hover,
+.menu-nav-portfolio:focus {
   /* Портфолио */
 
   position: absolute;
@@ -102,7 +102,7 @@ body {
 
   color: #2196f3;
 }
-.cont {
+.menu-nav-cont {
   /* Контакты */
 
   position: absolute;
@@ -121,8 +121,8 @@ body {
 
   color: #212121;
 }
-.cont:hover,
-.cont:focus {
+.menu-nav-cont:hover,
+.menu-nav-cont:focus {
   /* Контакты */
 
   position: absolute;
@@ -141,7 +141,7 @@ body {
 
   color: #2196f3;
 }
-.email {
+.page-header-contacts-email {
   /* info@devstudio.com */
 
   position: absolute;
@@ -160,8 +160,8 @@ body {
 
   color: #757575;
 }
-.email:hover,
-.email:focus {
+.page-header-contacts-email:hover,
+.page-header-contacts-email:focus {
   /* info@devstudio.com */
 
   position: absolute;
@@ -180,7 +180,7 @@ body {
 
   color: #2196f3;
 }
-.tel {
+.page-header-contacts-tel {
   /* info@devstudio.com */
 
   position: absolute;
@@ -199,8 +199,8 @@ body {
 
   color: #757575;
 }
-.tel:hover,
-.tel:focus {
+.page-header-contacts-tel:hover,
+.page-header-contacts-tel:focus {
   /* info@devstudio.com */
 
   position: absolute;
@@ -222,7 +222,7 @@ body {
 
 /* Rectangle 10 */
 
-.filters .all {
+.filters-select-all {
   position: absolute;
   width: 73px;
   height: 38px;
@@ -248,8 +248,8 @@ body {
   color: #212121;
 }
 
-.filters .all:hover,
-.filters .all:focus {
+.filters-select-all:hover,
+.filters-select-all:focus {
   position: absolute;
   width: 73px;
   height: 38px;
@@ -280,7 +280,7 @@ body {
   color: #ffffff;
 }
 
-.filters .web-site {
+.filters-select-web-site {
   position: absolute;
   width: 128px;
   height: 38px;
@@ -306,8 +306,8 @@ body {
   color: #212121;
 }
 
-.filters .web-site:hover,
-.filters .web-site:focus {
+.filters-select-web-site:hover,
+.filters-select-web-site:focus {
   position: absolute;
   width: 128px;
   height: 38px;
@@ -338,7 +338,7 @@ body {
   color: #ffffff;
 }
 
-.filters .app {
+.filters-select-app {
   position: absolute;
   width: 145px;
   height: 38px;
@@ -365,8 +365,8 @@ body {
   color: #212121;
 }
 
-.filters .app:hover,
-.filters .app:focus {
+.filters-select-app:hover,
+.filters-select-app:focus {
   position: absolute;
   width: 145px;
   height: 38px;
@@ -397,7 +397,7 @@ body {
   color: #ffffff;
 }
 
-.filters .design {
+.filters-select-design {
   position: absolute;
   width: 103px;
   height: 38px;
@@ -424,8 +424,8 @@ body {
   color: #212121;
 }
 
-.filters .design:hover,
-.filters .design:focus {
+.filters-select-design:hover,
+.filters-select-design:focus {
   position: absolute;
   width: 103px;
   height: 38px;
@@ -456,7 +456,7 @@ body {
   color: #ffffff;
 }
 
-.filters .market {
+.filters-select-market {
   position: absolute;
   width: 130px;
   height: 38px;
@@ -483,8 +483,8 @@ body {
   color: #212121;
 }
 
-.filters .market:hover,
-.filters .market:focus {
+.filters-select-market:hover,
+.filters-select-market:focus {
   position: absolute;
   width: 130px;
   height: 38px;

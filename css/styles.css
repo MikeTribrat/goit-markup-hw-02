@@ -57,6 +57,37 @@ ul {
   border-radius: 4px;
 }
 
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #212121;
+}
+
+.section-sub-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  color: #212121;
+}
+
+.section-sub-title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  color: #757575;
+}
+
 /* menu-nav */
 
 .menu-nav-studio {
@@ -579,35 +610,4 @@ ul {
 
   letter-spacing: 0.03em;
   color: #ffffff;
-}
-
-.section-sub-title-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.18;
-  /* identical to box height */
-  color: #757575;
-}
-
-.section-sub-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  /* identical to box height */
-
-  color: #212121;
-}
-
-.section-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-
-  color: #212121;
 }

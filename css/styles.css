@@ -42,7 +42,8 @@ ul {
   border-radius: 4px;
 }
 
-.order:hover {
+.order:hover,
+.order:focus {
   /* bg */
 
   color: #ffffff;

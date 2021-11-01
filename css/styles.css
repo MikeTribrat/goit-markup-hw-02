@@ -1,8 +1,63 @@
+/* основной цвет текста #212121*/
+/* эффект наведения на текст #2196F3*/
+/* цвет текста имейл и тел. #757575*/
+/* футер rgba(255, 255, 255, 0.6);*/
+/* футер наведение #FFFFFF*/
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   color: black;
 }
+
+ul {
+  list-style: none;
+}
+
+.hero {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  background-color: #2f303a;
+  color: #ffffff;
+}
+
+.order {
+  /* bg */
+
+  color: #ffffff;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.order:hover {
+  /* bg */
+
+  color: #ffffff;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* menu-nav */
 
 .menu-nav-studio {
   /* Студия */
@@ -121,6 +176,9 @@ body {
 
   color: #2196f3;
 }
+
+/* page-header-contacts */
+
 .page-header-contacts-email {
   /* info@devstudio.com */
 
@@ -200,7 +258,9 @@ body {
   color: #2196f3;
 }
 
-/* Rectangle 10 */
+/* filters-menu */
+
+/* Все */
 
 .filters-select-all {
   position: absolute;
@@ -208,19 +268,15 @@ body {
   height: 38px;
   left: 495px;
   top: 174px;
-
   background: #f5f4fa;
   border-radius: 4px;
-
-  /* Все */
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -235,7 +291,7 @@ body {
   height: 38px;
   left: 495px;
   top: 174px;
-
+  cursor: pointer;
   background: #2196f3;
 
   /* shadow-middle */
@@ -244,15 +300,12 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
-  /* Все */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -260,25 +313,23 @@ body {
   color: #ffffff;
 }
 
+/* Веб сайты */
+
 .filters-select-web-site {
-  position: absolute;
+    position: absolute;
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
-
   background: #f5f4fa;
   border-radius: 4px;
-
-  /* Веб сайты */
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -288,12 +339,12 @@ body {
 
 .filters-select-web-site:hover,
 .filters-select-web-site:focus {
-  position: absolute;
+    position: absolute;
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
-
+  cursor: pointer;
   background: #2196f3;
 
   /* shadow-middle */
@@ -302,21 +353,20 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
-  /* Веб сайты */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #ffffff;
 }
+
+/* Приложения */
 
 .filters-select-app {
   position: absolute;
@@ -328,16 +378,12 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
 
-  /* Приложения */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -352,6 +398,7 @@ body {
   height: 38px;
   left: 712px;
   top: 174px;
+  cursor: pointer;
 
   background: #2196f3;
 
@@ -361,21 +408,20 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
-  /* Приложения */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #ffffff;
 }
+
+/* Дизайн */
 
 .filters-select-design {
   position: absolute;
@@ -387,16 +433,12 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
 
-  /* Дизайн */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -411,6 +453,7 @@ body {
   height: 38px;
   left: 865px;
   top: 174px;
+  cursor: pointer;
 
   background: #2196f3;
 
@@ -420,21 +463,20 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
-  /* Дизайн */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #ffffff;
 }
+
+/* Маркетинг */
 
 .filters-select-market {
   position: absolute;
@@ -446,16 +488,12 @@ body {
   background: #f5f4fa;
   border-radius: 4px;
 
-  /* Маркетинг */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -470,6 +508,7 @@ body {
   height: 38px;
   left: 976px;
   top: 174px;
+  cursor: pointer;
 
   background: #2196f3;
 
@@ -479,15 +518,12 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 
-  /* Маркетинг */
-
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -495,14 +531,86 @@ body {
   color: #ffffff;
 }
 
+/* WebStudio */
+
 .web {
-  /* WebStudio */
-  font-family: raleway;
+  font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
+letter-spacing: 0.03em;
   color: #2196f3;
 }
 
+/* WebStudio */
+
 .studio {
-  /* WebStudio */
   font-family: roboto;
+  font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+
   color: #000000;
 }
+
+.contacts-nav-street {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* address */
+
+.contacts-nav-street:hover,
+.contacts-nav-street:focus {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.section-sub-title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18
+  /* identical to box height */
+
+  color: #757575;
+}
+
+.section-sub-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+
+color: #212121;
+}
+
+.section-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #212121;
+}
+
+  

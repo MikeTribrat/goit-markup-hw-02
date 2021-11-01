@@ -7,24 +7,70 @@
   --primary-text-color: #212121;
   --white: #ffffff;
   --bg-effects-color: #2196f3;
+  --site-nav-color: #2196f3;
+  --secondary-bg-color: #2f303a;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
-  color: black;
+  color: #212121;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 ul {
   list-style: none;
 }
 
-.hero {
-  font-family: Roboto;
+/* WebStudio */
+
+.web {
+  font-family: Raleway;
   font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.studio-top {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--primary-text-color);
+}
+
+.studio-bottom {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--white);
+  background-color: var(--secondary-bg-color);
+}
+
+.hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -40,7 +86,7 @@ ul {
 
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   background: var(--bg-effects-color);
@@ -56,7 +102,7 @@ ul {
 
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   background: #188ce8;
@@ -67,7 +113,7 @@ ul {
 .section-title {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
 
@@ -88,7 +134,7 @@ ul {
 .section-sub-title-text {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
@@ -97,203 +143,80 @@ ul {
 
 /* menu-nav */
 
-.menu-nav-studio {
-  /* Студия */
-
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+.site-nav .link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--primary-text-color);
 }
-.menu-nav-studio:hover,
-.menu-nav-studio:focus {
-  /* Студия */
-
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+.site-nav .link:hover,
+.site-nav .link:focus {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: #2196f3;
+  color: var(--site-nav-color);
 }
-.menu-nav-portfolio {
-  /* Портфолио */
-
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+.site-nav .link.current {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--primary-text-color);
+  color: var(--site-nav-color);
 }
-.menu-nav-portfolio:hover,
-.menu-nav-portfolio:focus {
-  /* Портфолио */
 
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
+/* header-contacts */
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+.header-contacts .link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-}
-.menu-nav-cont {
-  /* Контакты */
-
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: var(--primary-text-color);
-}
-.menu-nav-cont:hover,
-.menu-nav-cont:focus {
-  /* Контакты */
-
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: #2196f3;
-}
-
-/* page-header-contacts */
-
-.page-header-contacts-email {
-  /* info@devstudio.com */
-
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
 }
-.page-header-contacts-email:hover,
-.page-header-contacts-email:focus {
-  /* info@devstudio.com */
-
-  position: absolute;
-  width: 135px;
-  height: 16px;
-  left: 1078px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+.header-contacts .link:hover,
+.header-contacts .link:focus {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #2196f3;
 }
-.page-header-contacts-tel {
-  /* info@devstudio.com */
 
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
+/* footer-contacts */
 
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+.footer-contacts .link {
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.71;
 
-  color: #757575;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
 }
-.page-header-contacts-tel:hover,
-.page-header-contacts-tel:focus {
-  /* info@devstudio.com */
 
-  position: absolute;
-  width: 122px;
-  height: 16px;
-  left: 1263px;
-  top: 32px;
-
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+.footer-contacts .link:hover,
+.footer-contacts .link:focus {
+  font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+  line-height: 1.71;
 
-  color: #2196f3;
+  letter-spacing: 0.03em;
+  color: var(--white);
 }
 
 /* filters-menu */
@@ -566,55 +489,5 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--white);
-}
-
-/* WebStudio */
-
-.web {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}
-
-/* WebStudio */
-
-.studio {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  /* identical to box height */
-
-  color: var(--primary-text-color);
-}
-
-.contacts-nav-street {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.71;
-
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-/* address */
-
-.contacts-nav-street:hover,
-.contacts-nav-street:focus {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.71;
-
-  letter-spacing: 0.03em;
   color: var(--white);
 }

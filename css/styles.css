@@ -316,7 +316,7 @@ ul {
 /* Веб сайты */
 
 .filters-select-web-site {
-    position: absolute;
+  position: absolute;
   width: 128px;
   height: 38px;
   left: 576px;
@@ -339,7 +339,7 @@ ul {
 
 .filters-select-web-site:hover,
 .filters-select-web-site:focus {
-    position: absolute;
+  position: absolute;
   width: 128px;
   height: 38px;
   left: 576px;
@@ -535,13 +535,13 @@ ul {
 
 .web {
   font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 
@@ -550,10 +550,10 @@ letter-spacing: 0.03em;
 .studio {
   font-family: roboto;
   font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-/* identical to box height */
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
 
   color: #000000;
 }
@@ -586,31 +586,28 @@ line-height: 1.19;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18
+  line-height: 1.18;
+  /* identical to box height */
+  color: #757575;
+}
+
+.section-sub-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
   /* identical to box height */
 
- color: #757575;
+  color: #212121;
 }
 
-.section-sub-title{
+.section-title {
   font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-/* identical to box height */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
 
-color: #212121;
+  color: #212121;
 }
-
-.section-title{
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-
-color: #212121;
-}
-
-  

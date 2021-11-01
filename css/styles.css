@@ -3,6 +3,12 @@
 /* цвет текста имейл и тел. #757575*/
 /* футер rgba(255, 255, 255, 0.6);*/
 /* футер наведение #FFFFFF*/
+:root {
+  --primary-text-color: #212121;
+  --white: #ffffff;
+  --bg-effects-color: #2196f3;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;
@@ -24,20 +30,20 @@ ul {
   text-transform: uppercase;
 
   background-color: #2f303a;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .order {
   /* bg */
 
-  color: #ffffff;
+  color: var(--white);
 
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  background: #2196f3;
+  background: var(--bg-effects-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -46,7 +52,7 @@ ul {
 .order:focus {
   /* bg */
 
-  color: #ffffff;
+  color: var(--white);
 
   font-family: Roboto;
   font-style: normal;
@@ -65,7 +71,7 @@ ul {
   font-size: 36px;
   line-height: 1.16;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .section-sub-title {
@@ -76,7 +82,7 @@ ul {
   line-height: 1.18;
   /* identical to box height */
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .section-sub-title-text {
@@ -108,7 +114,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .menu-nav-studio:hover,
 .menu-nav-studio:focus {
@@ -147,7 +153,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .menu-nav-portfolio:hover,
 .menu-nav-portfolio:focus {
@@ -186,7 +192,7 @@ ul {
   line-height: 16px;
   letter-spacing: 0.02em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .menu-nav-cont:hover,
 .menu-nav-cont:focus {
@@ -313,7 +319,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .filters-select-all:hover,
@@ -324,7 +330,7 @@ ul {
   left: 495px;
   top: 174px;
   cursor: pointer;
-  background: #2196f3;
+  background: var(--bg-effects-color);
 
   /* shadow-middle */
 
@@ -342,7 +348,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* Веб сайты */
@@ -366,7 +372,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .filters-select-web-site:hover,
@@ -377,7 +383,7 @@ ul {
   left: 576px;
   top: 174px;
   cursor: pointer;
-  background: #2196f3;
+  background: var(--bg-effects-color);
 
   /* shadow-middle */
 
@@ -395,7 +401,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* Приложения */
@@ -420,7 +426,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .filters-select-app:hover,
@@ -432,7 +438,7 @@ ul {
   top: 174px;
   cursor: pointer;
 
-  background: #2196f3;
+  background: var(--bg-effects-color);
 
   /* shadow-middle */
 
@@ -450,7 +456,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* Дизайн */
@@ -475,7 +481,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .filters-select-design:hover,
@@ -487,7 +493,7 @@ ul {
   top: 174px;
   cursor: pointer;
 
-  background: #2196f3;
+  background: var(--bg-effects-color);
 
   /* shadow-middle */
 
@@ -505,7 +511,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* Маркетинг */
@@ -530,7 +536,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .filters-select-market:hover,
@@ -542,7 +548,7 @@ ul {
   top: 174px;
   cursor: pointer;
 
-  background: #2196f3;
+  background: var(--bg-effects-color);
 
   /* shadow-middle */
 
@@ -560,7 +566,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #ffffff;
+  color: var(--white);
 }
 
 /* WebStudio */
@@ -587,7 +593,7 @@ ul {
   line-height: 1.19;
   /* identical to box height */
 
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 .contacts-nav-street {
@@ -610,5 +616,5 @@ ul {
   line-height: 1.71;
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white);
 }

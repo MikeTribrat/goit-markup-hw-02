@@ -27,27 +27,55 @@ a {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.17;
 
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .studio-top {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
 
 .studio-bottom {
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.17;
+
+  letter-spacing: 0.03em;
 
   color: var(--white);
   background-color: var(--secondary-bg-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--site-nav-color);
+}
+.site-nav .link-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--site-nav-color);
 }
 
 /* header-contacts */
@@ -68,91 +96,6 @@ a {
   letter-spacing: 0.02em;
 
   color: #2196f3;
-}
-
-/* hero-section */
-
-.hero {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  background-color: #2f303a;
-  color: var(--white);
-}
-
-.button {
-  color: var(--white);
-
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  background: var(--bg-effects-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-}
-
-.button:hover,
-.button:focus {
-  color: var(--white);
-
-  background: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.section-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-
-  color: var(--primary-text-color);
-}
-
-.section-sub-title {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  /* identical to box height */
-
-  color: var(--primary-text-color);
-}
-
-.section-sub-title-text {
-  font-size: 16px;
-  line-height: 1.18;
-  /* identical to box height */
-  color: #757575;
-}
-
-/* site-nav */
-
-.site-nav .link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--site-nav-color);
-}
-.site-nav .link.current {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  color: var(--site-nav-color);
 }
 
 /* filter-menu */
@@ -181,12 +124,89 @@ a {
   cursor: pointer;
 }
 
+/* hero-section */
+
+.hero .athem {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  background-color: #2f303a;
+  color: var(--white);
+}
+
+.hero .button {
+  color: var(--white);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  background: var(--bg-effects-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white);
+
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* Преимущества */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+
+  color: var(--primary-text-color);
+}
+
+.section-sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+
+  color: var(--primary-text-color);
+}
+
+.section-sub-title-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* Team section */
+
+.team-res .staff-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-res .staff-position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 /* footer-contacts */
 
 .footer-contacts .link {
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2f303a;
@@ -195,4 +215,20 @@ a {
 .footer-contacts .link:hover,
 .footer-contacts .link:focus {
   color: var(--white);
+}
+
+/* gallery styles */
+
+.gallery-item .gallery-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.gallery-item .gallery-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
